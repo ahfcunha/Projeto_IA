@@ -1,0 +1,40 @@
+#form-prompt { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+}
+    
+#prompt { 
+    padding: 8px; 
+}
+
+button { 
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white; 
+    cursor: pointer; 
+}
+        
+button:disabled { 
+    background-color: #ccc; 
+}
+        
+.loading { 
+    text-align: center; 
+    font-style: italic; 
+    display: none; 
+}
+        
+.resposta-gerada { 
+    margin-top: 20px; 
+    text-align: center; 
+}
+        
+.resposta-gerada img { 
+    max-width: 100%; 
+    border: 1px solid #ddd; 
+}
+        
+.erro { 
+    color: red; 
+}
